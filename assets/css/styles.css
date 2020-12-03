@@ -5,12 +5,22 @@ body {
 a {
     color: #568EA6;
     font-weight: bold;
+    transition: all 0.3s ease-in-out;
 }
 
 a:hover {
     color: #305F72;
     text-decoration: underline;
     transition: all 0.3s ease-in-out;
+}
+
+.effet-zoom {
+    transition: all .5s ease-in-out;
+}
+
+.effet-zoom:hover {
+    padding: 25px 0;
+    transition: all .5s ease-in-out;
 }
 
 /* Card */
@@ -21,6 +31,10 @@ a:hover {
     margin-bottom: 20px;
     background-color: #fff;
     color: #777777;
+}
+
+.progress-bar {
+    transition: all 0.5s ease-in-out;
 }
 
 .progress-bar:hover {
@@ -57,9 +71,13 @@ a:hover {
     margin: 0 auto;
 }
 
+a img {
+    transition: all .5s ease-out;
+}
+
 a img:hover {
     opacity: 0.5;
-	transition: .3s ease-in-out;
+    transition: all .5s ease-out;
 }
 
 /* Colors */
