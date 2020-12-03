@@ -57,6 +57,10 @@ a:hover {
     margin: 0 auto;
 }
 
+a img:hover {
+    opacity: 0.5;
+	transition: .3s ease-in-out;
+}
 
 /* Colors */
 
